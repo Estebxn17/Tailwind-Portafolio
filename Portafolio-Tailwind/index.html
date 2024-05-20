@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="texto">TEXTO</h1>
+    </header>
+     <!-- Primero -->
+    <form id="miFormulario" onreset="return  confirmarRestablecimiento()">
+        <input type="text" id="nombre" name="nombre">
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+    </form>
+
+
+    <br>
+    <!-- Segundo -->
+
+    <form id="miFormulario2" onreset="manejarRestablecimiento()">
+        <input type="text" id="nombre" name="nombre">
+        <button type="reset">Restablecer</button>
+    </form>
+
+    <!-- Tercero -->
+
+    <form id="miFormulario3" onreset="guardarDatos()">
+        <input type="text" id="nombre" name="nombre">
+        <button type="reset">Restablecer</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
